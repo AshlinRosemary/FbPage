@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fb</title>
+    <link href="fb.CSS" type="text/CSS" rel="Stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a class="logo-text" href="index.html">facebook</a>
+            </div>
+            <div class="login">
+                <form action="">
+                    <table class="login-controls">
+                        <tr>    
+                            <td><label class="login label">Email or Phone</label></td>
+                            <td><label class="login label">Password</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input class="submitButton" type="submit" value="Login" ></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a class="forgotten" href="forgotten.html">Forgotten Account?</a></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div class="main-body">
+            <div class="left-section">
+                <img class="image" src="FBImage.png" alt="Wait">
+            </div>
+            <div class="right-section">
+                <p class="para1">Create an account</p>
+                <p class="para2">It's quick and easy.</p><br>
+                
+                <form id="signup-form" class="signup-form" action="" >
+                            <input name="fname"  class="fname" type="text" placeholder="First name"> 
+                            <input name="sname"   class="fname"type="text " placeholder="Sur name"> 
+                            <br></br>                                                   
+                            <input name="mailid"  class="e-name"type="email" placeholder="Mobile number or email" > 
+                            <br><br>
+                            <input name="pwd" class="e-name"type="text"  placeholder="Password" >
+                            <p class="birthday">Birthday</p>
+                            <div>
+                                <select class="day" name="day" id="">
+                                    <option value="">Day</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                                <select class="day" name="month" id="">
+                                    <option value="">Month</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                                <select class="day" name="year" id="">
+                                    <option value="">Year</option>
+                                    <option value="1997">1997</option>
+                                    <option value="2000">2000</option>
+                                    <option value="1998">1998</option>
+                                </select>
+                            </div>
+                            <p  class="birthday">Gender</p>
+                            
+                            <div >
+                                <input  type="radio" name="gender">
+                                <label>Male</label>
+                                <input  type="radio" name="gender">
+                                <label>Female</label>
+                                <input  type="radio" name="gender">
+                                <label>Other</label>
+                            </div>
+                            <p class="lastP">
+                                By clicking Sign Up , you agree to our <a href="Hello2.html">Terms,Data Policy</a> <br>
+                                and <a href="Hello2.html">Cookie Policy</a>.You may recieve SMS notifications from <br>
+                                us and can opt out at any time.
+                            </p>
+                            
+                            <input class="SignUp" type="submit" value="Sign Up" >
+                </form>    
+            </div>
+
+        </div>
+        
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>   
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="Script.JS"></script>
+</body>
+</html>
